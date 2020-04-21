@@ -1,0 +1,24 @@
+{
+    "name": "drop/module-http-version",
+    "description": "Fix error Invalid header line detected",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+      {
+        "email": "g.mariani@drop.it",
+        "name": "Gianluca Mariani"
+      }
+    ],
+    "require": {
+      "magento/product-community-edition": "2.2.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Drop\\HttpVersion\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }
